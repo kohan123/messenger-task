@@ -1,0 +1,59 @@
+main {
+    width: 40%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+header {
+    background-color: rgb(43, 40, 40);
+    height: 50px;
+}
+.menu-btn {
+    background-color:  rgb(43, 40, 40);
+    border: none;
+    width: 15%;
+    padding: 0px;
+    height: 50px;
+    border-right: 1px solid black;
+}
+.menu-container {
+    display: flex;
+    margin-left: 20px;
+}
+.left_section {
+    display: flex;
+}
+.search_container {
+    display: flex;
+    margin-left: 20px;
+    width: 20%;
+    justify-content: space-around;
+}
+.gray {
+    color: darkgray;
+}
+.lupa {
+    margin-top: 16px;
+}
+.bell-container {
+    display: flex;
+}
+.bell {
+    width: 22px;
+    margin-top: 3px;
+}
+.girl {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.right_section {
+    position: relative;
+    left: 75%;
+    bottom: 76%
+}
+.strelka {
+    margin-top: 6px;
+}
+
