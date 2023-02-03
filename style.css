@@ -8,6 +8,7 @@ main {
 header {
     background-color: rgb(43, 40, 40);
     height: 50px;
+    margin-bottom: 75px;
 }
 .menu-btn {
     background-color:  rgb(43, 40, 40);
@@ -110,4 +111,38 @@ header {
     padding-left: 35px;
     color: beige;
 }
+.sort {
+    justify-content: space-between;
+}
+.sort_setting {
+    margin-left: 25px;
+}
+.sort_list {
+    margin-right: 15px;
+}
+.sort_list img {
+    width: 25px;
+    margin-left: 5px;
+}
+.flex {
+    display: flex;
+}
+.sort_title {
+   color: rgb(189, 185, 185);
+   font-size: 18px;
+   margin-right: 5px;
+}
+.last_viewed {
+    font-weight: bold;
+    font-size: 18px;
+}
+.rose1 {
+    display: block;
+    background-image: url("images/rose1.jpeg");
+    height: 30px;
+    width: 30px;
+
+    
+}
+
 
