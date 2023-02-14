@@ -1,6 +1,6 @@
 main {
     width: 40%;
-    height: 600px;
+    height: 450px;
     margin: 0 auto;
     background-color: antiquewhite;
     border-radius: 10px;
@@ -136,13 +136,46 @@ header {
     font-weight: bold;
     font-size: 18px;
 }
-.rose1 {
-    display: block;
-    background-image: url("images/rose1.jpeg");
+.rose {
+    width: 40px;
     height: 30px;
-    width: 30px;
-
-    
+    margin-left: 25px;
 }
+.human {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    border: 3px solid white;
+    position: relative;
+}
+.container {
+    justify-content: space-between;
+}
+.star {
+    margin-top: 4px;
+    color: blue;
+}
+.title {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container div p {
+    margin-left: 5px;
+}
+.list_interests {
+    margin-top: 20px;
+}
+.pages {
+    margin-right: 10px;
+}
+.page_1 {
+    left: 12%;
+}
+.page_2 {
+    left: 7%;
+}
+
 
 
