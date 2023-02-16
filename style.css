@@ -94,7 +94,6 @@ header {
     width: 30%;
 }
 .files {
-    display: block;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
@@ -102,7 +101,6 @@ header {
     margin-top: 19px;
 }
 .users {
-    display: block;
     font-size: 18px;
     color: darkgray;
     text-decoration: none;
@@ -143,6 +141,9 @@ header {
 .last_viewed {
     font-weight: bold;
     font-size: 18px;
+}
+.arrow {
+    margin-top: 3px;
 }
 .rose {
     width: 40px;
