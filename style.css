@@ -1,23 +1,30 @@
+body {
+    background-image: url("images/main-background.jpg");
+}
 main {
     width: 40%;
     height: 450px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: rgb(255, 254, 254);
     border-radius: 10px;
+    margin-top: 112.5px;
 }
 header {
     background-color: rgb(43, 40, 40);
     height: 50px;
-    margin-bottom: 75px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
 }
 .menu-btn {
     background-color:  rgb(43, 40, 40);
     border: none;
-    width: 15%;
+    width: 20%;
     padding: 0px;
     height: 50px;
     border-right: 1px solid black;
     margin-right: 20px;
+    border-top-left-radius: 7px;
 }
 .menu-container {
     display: flex;
@@ -25,10 +32,11 @@ header {
 }
 .left_section {
     display: flex;
+    width: 75%;
 }
 .search_container {
     display: flex;
-    margin-left: 47px;
+    margin-left: 55px;
     width: 20%;
     justify-content: space-around;
 }
@@ -40,6 +48,7 @@ header {
 }
 .bell-container {
     display: flex;
+    margin-top: 10px;
 }
 .bell {
     width: 22px;
@@ -51,10 +60,7 @@ header {
     margin-left: 20px;
 }
 .right_section {
-    position: relative;
-    left: 75%;
-    bottom: 76%;
-    height: 0px;
+    
 }
 .strelka {
     margin-top: 6px;
@@ -119,6 +125,7 @@ header {
 }
 .sort {
     justify-content: space-between;
+    margin-top: 15px;
 }
 .sort_setting {
     margin-left: 25px;
@@ -184,6 +191,11 @@ header {
 }
 .page_2 {
     left: 7%;
+    display: block;
+    background-image: url("images/men.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
